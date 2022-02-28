@@ -5,3 +5,4 @@ venv
 logs/*
 !logs
 !logs/setup_logger.py
+__pycache__/

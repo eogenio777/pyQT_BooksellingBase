@@ -1,0 +1,7 @@
+# input local DB data to this file in order to work
+# config.json
+.idea
+venv
+logs/*
+!logs
+!logs/setup_logger.py

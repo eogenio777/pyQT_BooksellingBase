@@ -1,0 +1,98 @@
+{
+  "db": {
+    "dbname": "***",
+    "driver": "***",
+    "server": "***"
+  },
+  "gui": {
+    "texts": {
+      "authentication": {
+        "register": "Зарегистрироваться",
+        "log_in": "Войти",
+        "welcome_message": "Добро пожаловать в приложение \"Книготорговая база\"",
+        "user_first_name": "Имя",
+        "user_last_name": "Фамилия",
+        "user_middle_name": "Отчество",
+        "user_phone_number": "Телефон",
+        "worker_flag": "Я работник",
+        "role_pass": "Кодовое слово для определения роли в системе",
+        "input_your_data": "Введите свои данные",
+        "log_in_system": "Войдите в систему",
+        "user_login": "Логин",
+        "user_password": "Пароль",
+        "submit_reg": "Подтвердить регистрацию",
+        "submit_log_in": "Подтвердить вход",
+        "yes": "Да",
+        "go_to_login": "Вы успешно зарегистрировались, теперь вы можете войти в систему."
+      },
+      "common": {
+        "catalog": "Каталог",
+        "bin": "Корзина",
+        "user_profile": "Профиль",
+        "orders": "Заказы",
+        "user_first_name": "Имя",
+        "user_last_name": "Фамилия",
+        "user_middle_name": "Отчество",
+        "user_phone_number": "Телефон",
+        "user_login": "Логин",
+        "user_profile_change": "Здесь Вы можете изменить свои личные данные:",
+        "change_profile_btn": "Изменить данные"
+      },
+      "customer": {
+        "catalog": "Каталог",
+        "cart": "Корзина",
+        "user_profile": "Профиль",
+        "orders": "Заказы",
+        "user_first_name": "Имя",
+        "user_last_name": "Фамилия",
+        "user_middle_name": "Отчество",
+        "user_phone_number": "Телефон",
+        "user_login": "Логин",
+        "user_password": "Пароль",
+        "user_profile_change": "Здесь Вы можете изменить свои личные данные:",
+        "change_profile_btn": "Изменить данные",
+        "cart_is_empty": "Вы еще не добавили ни одной книги",
+        "operator_pending": " --- "
+      },
+      "manager": {
+        "user": "Пользователь",
+        "no_orders_with_selected_status": "У данного пользователя нету заказов выбранного типа"
+      },
+      "admin": {
+        "user": "Пользователь",
+        "no_orders_with_selected_status": "У данного пользователя нету заказов выбранного типа",
+        "total_profit": "Принесенная прибыль:"
+      }
+    },
+    "window_names": {
+      "authentication_window": "Аутентификация",
+      "registration_complete": "Регистрация завершена",
+      "customer_window": "Покупатель",
+      "manager_window": "",
+      "admin_window": "",
+      "error": "Ошибка",
+      "success": "Успех"
+    },
+    "exceptions": {
+      "user_login_exists": "Пользователь с таким логином уже существует",
+      "user_phone_exists": "Пользователь с таким телефоном уже существует",
+      "user_login_does_not_exist": "Пользователя с таким логином не существует",
+      "user_password_incorrect": "Неверный пароль",
+      "incorrect_phone_signature": "Неверно введен телефонный номер",
+      "incorrect_login": "Неверно выбран логин: он может состоять из латинских символов в любых регистрах, цифр и символов '_'",
+      "incorrect_initials": "Неверно введены имя, фамилия или отчество (при наличии): требуется вводить кириллицей с заглавной буквы",
+      "empty_fields": "Пожулайста, заполните все необходимые поля.",
+      "incorrect_book_number_input": "Вы выбрали слишком много экземпляров книги",
+      "passwords_unmatched": "Пароли не совпадают",
+      "book_quantity_error": "Вы не можете добавить в корзину 0 экземпляров книг",
+      "change_in_cart": "Измените количество экземпляров книги в корзине или удалите книгу из корзины",
+      "add_book_success": "Книга успешно добавлена",
+      "delete_book_success": "Книга успешно удалена",
+      "unable_to_delete_book": "Книга не может быть удалена, на данный момент она находится в незавершенных заказах",
+      "not_verified_user": "Ваш профиль не является активным, подождите пока вас подтвердит администратор или позвоните ему:\n"
+    },
+    "worker_passes": {
+      "manager": "m"
+    }
+  }
+}
